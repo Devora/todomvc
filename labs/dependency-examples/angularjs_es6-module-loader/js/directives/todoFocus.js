@@ -2,7 +2,7 @@
  * Directive that places focus on the element it is applied to when the expression it binds to evaluates to true.
  */
 
-import app from 'app';
+import app from '../app';
 
 app.directive('todoFocus', ['$timeout', function ($timeout) {
 	return function (scope, elem, attrs) {
