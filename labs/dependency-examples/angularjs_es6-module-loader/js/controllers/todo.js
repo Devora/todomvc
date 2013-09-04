@@ -4,8 +4,8 @@
  * - exposes the model to the template and provides event handlers
  */
 
-import app from 'app';
-import 'services/todoStorage';
+import app from '../app';
+import '../services/todoStorage';
 
 export default = app.controller('TodoController', ['$scope', '$location', 'todoStorage', 'filterFilter',
 	function TodoController($scope, $location, todoStorage, filterFilter) {

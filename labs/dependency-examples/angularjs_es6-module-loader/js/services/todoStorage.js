@@ -1,7 +1,7 @@
 /**
  * Services that persists and retrieves TODOs from localStorage.
  */
-import app from 'app';
+import app from '../app';
 
 app.factory('todoStorage', function () {
 	var STORAGE_ID = 'todos-angularjs-requirejs';
